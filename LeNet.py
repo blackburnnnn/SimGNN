@@ -3,6 +3,8 @@ from torch import nn
 import torch.nn.functional as F
 from torch.autograd import Variable
 
+
+# 加注释
 class LeNet(nn.Module):
     def __init__(self):
         # nn.Module的子类函数必须在构造函数中执行父类的构造函数
